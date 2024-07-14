@@ -1,4 +1,4 @@
-#status {
+:host {
   display: block;
   width: 15rem;
 }
@@ -20,4 +20,21 @@
 
 .status-unknown p:first-of-type {
   color: grey;
+}
+
+p:last-of-type {
+  margin: 0;
+  color: #625e67;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
